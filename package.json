@@ -1,0 +1,40 @@
+{
+  "name": "zengli-island",
+  "version": "1.0.0",
+  "private": false,
+  "description": "曾丽在迭代 — Low-poly Three.js 3D 交互个人主页，基于 6LAILAI/resume / jasonz-ai/3d-island (MIT).",
+  "keywords": [
+    "threejs",
+    "webgl",
+    "3d-portfolio",
+    "personal-website",
+    "interactive-resume",
+    "low-poly",
+    "zengli",
+    "typescript",
+    "vite"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lilizeng7-max/zengli-island.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "^5.3.1",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.5"
+  }
+}
